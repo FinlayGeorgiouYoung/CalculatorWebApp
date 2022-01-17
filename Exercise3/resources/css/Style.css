@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: #1a7d21;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+#displayArea{
+    font-family: verdana;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #02ab10;
+    width: 308px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1a7d21;
+}
+
+#calc{
+    font-family: verdana;
+    text-align: center;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: #1a7d21;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    height: 60px;
+    width: 100px;
+}
+button:hover, button:active{
+    background-color: #02ab10;
+}
+
